@@ -1,0 +1,17 @@
+table{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+tr:first-child, td:first-child{
+    background-color: #add8e6;
+    font-weight: bold;
+}
+
+tr:nth-child(2n+3) {
+    background-color:  #dfdfdf;
+}
